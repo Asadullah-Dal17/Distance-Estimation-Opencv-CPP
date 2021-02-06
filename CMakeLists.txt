@@ -4,7 +4,7 @@ project(Distance-Estimation VERSION 0.1.0)
 include(CTest)
 enable_testing()
 find_package(OpenCV REQUIRED)
-find_package(OpenCV REQUIRED)
+find_package(Threads REQUIRED)
 
 add_executable(Distance-Estimation main.cpp)
 
